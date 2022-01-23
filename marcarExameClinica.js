@@ -10,3 +10,7 @@ function marcarExame() {
     alert("Exame marcado");
     location.href = "lab.html";
 }
+function recusarExame() {
+    alert("Exame recusado");
+    location.href = "lab.html";
+}
