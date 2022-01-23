@@ -1,0 +1,10 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EFF3F7;
+    color: #09090A;
+}
+
+.exames:hover{
+  background-color: #818d99;
+  cursor: pointer;
+}

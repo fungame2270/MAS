@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Exame 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#E8E8E8;">
+        <div class="container">
+            <a href="index.html"><img src="logoclin.png" height="70" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-end" id="navbarTogglerDemo01" style="justify-content: flex-end;">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="utente.html"><i class="fa fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="login.html"><i class="fa fa-sign-out"></i> Sair</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<br />
+    <!--Tabela com exames para consultar-->
+    <div class="container">
+        <div class="p-4 bg-light text-dark rounded">
+            <h3>Informação sobre o exame</h3>
+            <div class="mt-5">
+                <div class="row">
+                    <div class="col">
+                      Exame: <h4>Gama-Glutamil-Transpeptisade</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-2">
+                <div class="row">
+                    <div class="col">
+                        Hora: <h4>16:00</h4>
+                    </div>
+                    <div class="col">
+                      
+                    </div>
+                    <div class="col">
+                      Laboratório: <h4>Delta</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-2">
+                <div class="row">
+                    <div class="col">
+                        Dia: <h4>22/05/2023</h4>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+                      Morada: <h4>Rua de Sardinha Nº. 83 Avanca</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-3">
+                <div class="row">
+                    <div class="col">
+                        Pré-requisitos: <h5>Nada a notar</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div class="mt-5" style="text-align: center;">
+            <a href="consultarExame.html"><button type="button" class="btn btn-danger btn-lg" style="height:70px;" onclick="desmarcarExame()">Desmarcar Exame</button></a>
+        </div>
+    </div>
+
+    <footer class="mt-auto">
+        <div class="container">
+            <span class="text-muted"><small>&copy; 2022 Todos os Direitos Reservados ao Governo da República Portuguesa - Ministério da Saúde</small>  </span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="consultarExame.js"></script>
+</body>
+</html>
